@@ -1,0 +1,5 @@
+The bar should have resources at the bottom while the top is to inform the user of music, date, and weather. 
+
+NEEDS: Weather module
+
+Bottom bar will need a redesign most likely
