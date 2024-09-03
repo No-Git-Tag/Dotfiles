@@ -1,0 +1,160 @@
+[global_config]
+  dbus = False
+  focus = mouse
+  tab_position = bottom
+  suppress_multiple_term_dialog = True
+[keybindings]
+  zoom_in = None
+  zoom_out = None
+  zoom_normal = None
+  new_tab = None
+  cycle_next = None
+  cycle_prev = None
+  go_next = None
+  go_prev = None
+  go_up = None
+  go_down = None
+  go_left = None
+  go_right = None
+  rotate_cw = None
+  rotate_ccw = None
+  split_horiz = None
+  split_vert = None
+  close_term = None
+  copy = None
+  paste = None
+  toggle_scrollbar = None
+  search = None
+  close_window = None
+  resize_up = None
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  move_tab_right = None
+  move_tab_left = None
+  toggle_zoom = None
+  scaled_zoom = None
+  next_tab = None
+  prev_tab = None
+  switch_to_tab_1 = None
+  full_screen = None
+  reset = None
+  reset_clear = None
+  hide_window = None
+  group_all = None
+  ungroup_all = None
+  group_tab = None
+  ungroup_tab = None
+  new_window = None
+  new_terminator = None
+  insert_number = None
+  insert_padded = None
+  edit_window_title = None
+  layout_launcher = None
+  help = None
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_darkness = 0.6
+    background_type = transparent
+    cursor_shape = ibeam
+    font = Hack 9
+    foreground_color = "#078d00"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[general]]
+    allow_bold = False
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#e01b24"
+    cursor_color_default = False
+    font = Hack 9
+    foreground_color = "#078d00"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 1049:186
+      maximised = False
+      fullscreen = False
+      size = 562, 378
+      title = Daft-Addict-MX@Daft-Addict-MX: ~
+      last_active_term = 08eab764-f9a3-482a-92f8-a71d01cf629a
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 08eab764-f9a3-482a-92f8-a71d01cf629a
+  [[main]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:36
+      maximised = True
+      fullscreen = False
+      size = 1920, 1044
+      title = Daft-Addict-MX@Daft-Addict-MX: ~
+      last_active_term = 08eab764-f9a3-482a-92f8-a71d01cf629a
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 628
+      ratio = 0.3279373368146214
+    [[[child2]]]
+      type = VPaned
+      parent = child1
+      order = 0
+      position = 333
+      ratio = 0.3205004812319538
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = default
+      uuid = 177df132-ea6e-43fa-b775-0eb9ddb8548d
+    [[[terminal4]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = default
+      uuid = dd9c9c11-e667-463b-a8b5-d167b49a36b8
+    [[[terminal5]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = default
+      uuid = 08eab764-f9a3-482a-92f8-a71d01cf629a
+  [[music]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:26
+      maximised = True
+      fullscreen = False
+      size = 1920, 1026
+      title = Daft-Addict-MX@Daft-Addict-MX: ~
+      last_active_term = 08eab764-f9a3-482a-92f8-a71d01cf629a
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 08eab764-f9a3-482a-92f8-a71d01cf629a
+[plugins]
