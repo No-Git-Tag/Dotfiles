@@ -70,13 +70,14 @@
     background_type = transparent
     cursor_shape = ibeam
     cursor_fg_color = "#000000"
-    cursor_bg_color = "#e01b24"
+    cursor_bg_color = "#078d00"
     cursor_color_default = False
     font = Hack 9
     foreground_color = "#078d00"
     show_titlebar = False
     scrollbar_position = hidden
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    custom_command = ~/terminatorsays.sh ; exec bash
     use_system_font = False
 [layouts]
   [[default]]

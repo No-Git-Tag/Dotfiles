@@ -1,0 +1,7 @@
+@theme "/usr/share/rofi/themes/rounded-gray-dark.rasi"
+configuration {
+	show-icons: true; // Enable icons
+	display-attribute: "icon";
+	icon-theme: "McMojave-circle-grey-dark"; // name of theme
+}
+
